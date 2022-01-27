@@ -16674,7 +16674,6 @@ td.rdtYear:hover {
     height: 22px;
     width: 45px;
     border: none;
-    background-image: url("../../../../assets/img/darken-night-sky-full-of-stars.png");
     background-position: center center;
     background-size: cover; }
   .custom-switch .custom-control-label::after {
@@ -16682,9 +16681,6 @@ td.rdtYear:hover {
     width: 18px;
     background-color: rgba(156, 156, 156, 0.9);
     transition: all 0.25s ease-out; }
-
-.custom-switch .custom-control-input:checked ~ .custom-control-label::before {
-  background-image: url("../../../../assets/img/night-sky-full-of-stars.png"); }
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   background-color: #ffffff;
