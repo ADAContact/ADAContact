@@ -4,7 +4,6 @@ import Notifications from 'components/Notifications';
 import SearchInput from 'components/SearchInput';
 import withBadge from 'hocs/withBadge';
 import React from 'react';
-import { baseUrl, getAllProjects, getProjectsStats, liveProjectSales } from '../../assets/services';
 import {
   MdClearAll,
   MdExitToApp,
@@ -87,17 +86,6 @@ class Header extends React.Component {
   componentDidMount() {
     var user = getUser();
     this.setState({ user: user });
-    this.getAllProjects();
-  }
-
-  async getAllProjects() {
-    try {
-      var response = await fetch(baseUrl + getAllProjects);
-      const data = await response.json();
-      this.setState({ projects: data })
-    } catch (error) {
-      console.log(error)
-    }
   }
 
 
@@ -123,16 +111,6 @@ class Header extends React.Component {
               alignItems: 'center',
               textAlign: 'center'
             }}>
-
-
-              <div className="App-text" style={{
-                justifyContent: 'center',
-                alignItems: 'center',
-                textAlign: 'center',
-              }} >
-                <h1 className="text-black" style={{ color: "#225cb6" }}>Building On Cardano</h1>
-              </div>
-
             </Nav>
 
             <Nav navbar className={bem.e('nav-right')}>

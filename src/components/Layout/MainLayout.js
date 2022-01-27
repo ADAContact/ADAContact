@@ -7,8 +7,6 @@ import {
 } from 'react-icons/md';
 import NotificationSystem from 'react-notification-system';
 import { NOTIFICATION_SYSTEM_STYLE } from 'utils/constants';
-import Particle from "react-particles-js";
-import particlesConfig from "assets/particlesConfig.json";
 
 class MainLayout extends React.Component {
   static isSidebarOpen() {
@@ -25,18 +23,6 @@ class MainLayout extends React.Component {
 
   componentDidMount() {
     this.checkBreakpoint(this.props.breakpoint);
-
-    // setTimeout(() => {
-    //   if (!this.notificationSystem) {
-    //     return;
-    //   }
-
-    //   this.notificationSystem.addNotification({
-    //     title: <MdImportantDevices />,
-    //     message: 'Welcome to Building On Cardano! Brought to you by PAUL and SHAMROCK.',
-    //     level: 'info',
-    //   });
-    // }, 1500);
   }
 
   // close sidebar when
@@ -79,7 +65,6 @@ class MainLayout extends React.Component {
     const { children } = this.props;
     return (
       <main className="cr-app bg-light">
-        <Particle params={particlesConfig} className="App-particles__container" />
         <Sidebar />
         <Content fluid onClick={this.handleContentClick}>
           <Header />

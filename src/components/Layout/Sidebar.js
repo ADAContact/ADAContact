@@ -111,8 +111,6 @@ class Sidebar extends React.Component {
                 </Link>
               </Col>
             </Row>
-
-            {/* <h5 className="text-white">Building On Cardano</h5> */}
           </Navbar>
           <Nav vertical style={{
                   color: "white", justifyContent: 'center',
