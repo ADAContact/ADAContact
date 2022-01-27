@@ -1,3 +1,20 @@
+/*!
+
+=========================================================
+* BLK Design System React - v1.2.0
+=========================================================
+
+* Product Page: https://www.creative-tim.com/product/blk-design-system-react
+* Copyright 2020 Creative Tim (https://www.creative-tim.com)
+* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
+
+* Coded by Creative Tim
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
 /*     brand Colors              */
 /* navbar color */
 @keyframes move-left-right {
@@ -14601,7 +14618,6 @@ Copyright (c) 2015 Daniel Eden
   vertical-align: middle;
   -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
-  background: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/J9H9WF0/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png");
   background-position: center center;
   background-size: cover; }
 
@@ -16668,7 +16684,7 @@ td.rdtYear:hover {
     transition: all 0.25s ease-out; }
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::before {
-  background-image: url("../../../../assets/img/night-sky-full-of-stars-fantasy-animation-made-of-magical-sparkly-light-particles-flickering-on-a-purple-blue-gradient-background_bajacpz7x_thumbnail-full01.png"); }
+  background-image: url("../../../../assets/img/night-sky-full-of-stars.png"); }
 
 .custom-switch .custom-control-input:checked ~ .custom-control-label::after {
   background-color: #ffffff;
@@ -16729,3 +16745,5 @@ td.rdtYear:hover {
   color: #1d8cf8; }
   .blockquote.blockquote-info small {
     color: #1d8cf8; }
+
+/*# sourceMappingURL=blk-design-system-react.css.map */
