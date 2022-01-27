@@ -1,22 +1,19 @@
-// import logo from './logo.svg';
-// import './App.css';
-import axios from 'axios';
 import React, { useState, useEffect } from 'react';
+import { Button } from "reactstrap";
 import queryString from 'query-string';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 
 import {
     baseUrl, twitterToken, getUserDetails
   } from '../../assets/services';
 
-const apiPath = process.env.REACT_APP_SERVERLESS ? '/.netlify/functions/index' : '/api';
 
 export default function TwitterLogin(props) {
 
     const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [name, setName] = useState();
     const [imageUrl, setImageUrl] = useState();
-    const [status, setStatus] = useState();
-    const [url, setUrl] = useState();
 
     const login = () => {
         (async () => {
@@ -38,10 +35,10 @@ export default function TwitterLogin(props) {
     const logout = () => {
         (async () => {
             try {
-                await axios({
-                    url: `${apiPath}/twitter/logout`,
-                    method: 'POST'
-                });
+                // await axios({
+                //     url: `${apiPath}/twitter/logout`,
+                //     method: 'POST'
+                // });
                 setIsLoggedIn(false);
             } catch (error) {
                 console.error(error);
@@ -76,7 +73,16 @@ export default function TwitterLogin(props) {
         <div className="App">
             <header className="App-header">
                 {!isLoggedIn &&
-                    <img className='signin-btn' onClick={login} alt='Twitter login button' src='https://assets.klaudsol.com/twitter.png' />
+                    <Button
+                    className="btn-round"
+                    color="info"
+                    role="button"
+                    size="lg"
+                    onClick={login}
+                  >              
+                    <FontAwesomeIcon size="2x" icon={faTwitter} style={{ color: "white" }} /> 
+                    <p> Twitter Login</p>
+                  </Button>
                 }
 
                 {isLoggedIn &&
