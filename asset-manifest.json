@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "https://adacontact.com/static/css/main.10471a91.chunk.css",
-    "main.js": "https://adacontact.com/static/js/main.798013f7.chunk.js",
-    "main.js.map": "https://adacontact.com/static/js/main.798013f7.chunk.js.map",
+    "main.js": "https://adacontact.com/static/js/main.d2be360c.chunk.js",
+    "main.js.map": "https://adacontact.com/static/js/main.d2be360c.chunk.js.map",
     "runtime-main.js": "https://adacontact.com/static/js/runtime-main.54178e24.js",
     "runtime-main.js.map": "https://adacontact.com/static/js/runtime-main.54178e24.js.map",
-    "static/js/2.35f3f285.chunk.js": "https://adacontact.com/static/js/2.35f3f285.chunk.js",
-    "static/js/2.35f3f285.chunk.js.map": "https://adacontact.com/static/js/2.35f3f285.chunk.js.map",
+    "static/js/2.1500f0f7.chunk.js": "https://adacontact.com/static/js/2.1500f0f7.chunk.js",
+    "static/js/2.1500f0f7.chunk.js.map": "https://adacontact.com/static/js/2.1500f0f7.chunk.js.map",
     "index.html": "https://adacontact.com/index.html",
     "static/css/main.10471a91.chunk.css.map": "https://adacontact.com/static/css/main.10471a91.chunk.css.map",
-    "static/js/2.35f3f285.chunk.js.LICENSE.txt": "https://adacontact.com/static/js/2.35f3f285.chunk.js.LICENSE.txt",
+    "static/js/2.1500f0f7.chunk.js.LICENSE.txt": "https://adacontact.com/static/js/2.1500f0f7.chunk.js.LICENSE.txt",
     "static/media/denys.jpg": "https://adacontact.com/static/media/denys.1b33975a.jpg",
     "static/media/dots.png": "https://adacontact.com/static/media/dots.1e305f98.png",
     "static/media/fabien-bazanegue.jpg": "https://adacontact.com/static/media/fabien-bazanegue.3c5ff5a0.jpg",
@@ -22,8 +22,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.54178e24.js",
-    "static/js/2.35f3f285.chunk.js",
+    "static/js/2.1500f0f7.chunk.js",
     "static/css/main.10471a91.chunk.css",
-    "static/js/main.798013f7.chunk.js"
+    "static/js/main.d2be360c.chunk.js"
   ]
 }
